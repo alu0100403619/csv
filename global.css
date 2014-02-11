@@ -5,7 +5,9 @@ html *
    font-family: Arial;
 }
 
-h1            { text-align: center; font-size: x-large; }
+h1            { text-align: center; font-size: x-large; color: #ffffff;}
+i             { color: #ffffff;}
+a             { font-weight: bold; color: #ffffff;}
 th, td        { vertical-align: top; text-align: right; }   
 /* #finaltable  * { color: white; background-color: black; }   */
 
@@ -22,5 +24,6 @@ table.center { margin-left:auto; margin-right:auto; }
 tr.error       { background-color: red; }
 body
 {
- background-color:#b0c4de;  /* blue */
+ /*background-color:#b0c4de;*/  /* blue */
+ background-image:url('Paisaje.jpg');
 }
