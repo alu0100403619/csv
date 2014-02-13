@@ -2,7 +2,7 @@ var assert = chai.assert;
 var tabla1 = '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>3</td>                                  <td> 2</td>                                  <td> F</td>              </tr>\n</tbody></table>';
 var tabla2 = '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>4</td>                                  <td> 5</td>                                  <td> C 6</td>                                  <td> 7</td>                                  <td> D</td>              </tr>\n</tbody></table>';
 
-suite('temperature', function() {
+suite('csv', function() {
     test('3, 2, F = [3, 2, F]', function() {
         original.value = "3, 2, F";
         calculate();
