@@ -25,6 +25,6 @@ tr.error       { background-color: red; }
 body
 {
  background-color:#b0c4de;  /* blue */
- /*Imagen que se pondra de fondo*/
+ /*Imagen que se pondrá de fondo*/
  background-image:url('Paisaje.jpg');
 }
